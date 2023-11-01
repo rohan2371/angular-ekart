@@ -24,6 +24,10 @@
     margin-left: -5px;
     color : #fff;
 }
+.btn-search-disable{
+    color : white;
+    background-color: rgb(236, 32, 39);
+}
 .ekart-search-result-for{
     margin : 20px auto;
     padding : 12px 140px;

@@ -6,10 +6,13 @@ import { HeaderComponent } from './header/header.component';
 import { TopHeaderComponent } from './top-header/top-header.component';
 import { TopMenuComponent } from './header/top-menu/top-menu.component';
 import { MainMenuComponent } from './header/main-menu/main-menu.component';
-import { ProductListComponent } from './product-list/product-list.component';
-import SearchComponent  from './search/search.component';
+import { ContainerComponent } from './container/container.component';
+import SearchComponent  from './container/search/search.component';
 import { FormsModule } from '@angular/forms';
 import { RohanComponent } from './rohan/rohan.component';
+import { ProductListComponent } from './container/product-list/product-list.component';
+import { ProductComponent } from './container/product-list/product/product.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,9 +20,11 @@ import { RohanComponent } from './rohan/rohan.component';
     TopHeaderComponent,
     TopMenuComponent,
     MainMenuComponent,
-    ProductListComponent,
+    ContainerComponent,
     SearchComponent,
-    RohanComponent
+    RohanComponent,
+    ProductListComponent,
+    ProductComponent,
   ],
   imports: [
     BrowserModule,
