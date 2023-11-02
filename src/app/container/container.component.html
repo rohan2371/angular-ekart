@@ -1,2 +1,6 @@
 <app-search (searchTextChanged)="setSearchText($event)"></app-search>
-<product-list [searchTextDiff]="searchText"></product-list>
+
+<product-list [searchTextDiff]="searchText" #productListComponent></product-list>
+
+<!--ProductListComponent that is reference variable of component-->
+<product-details *ngIf="productListComponent.selectedProduct=== undefined?false:true"></product-details>

@@ -7,7 +7,7 @@
 
 
 <div class="restraurant-list">
-  <div *ngFor="let prod of products" >
+  <div *ngFor="let prod of products" (click)="selectedProduct = prod">
     <app-product [product]="prod" *ngIf=" searchTextDiff=== '' || prod.name.toLowerCase().includes(searchTextDiff)"></app-product>
   </div>
   <!-- <app-product *ngFor="let prod of products" [product]="prod"></app-product> -->

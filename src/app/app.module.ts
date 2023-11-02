@@ -13,6 +13,7 @@ import { RohanComponent } from './rohan/rohan.component';
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductComponent } from './container/product-list/product/product.component';
 import { FilterComponent } from './container/product-list/filter-component/filter-component.component';
+import { ProductDetailsComponent } from './container/product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { FilterComponent } from './container/product-list/filter-component/filte
     ProductListComponent,
     ProductComponent,
     FilterComponent,
+    ProductDetailsComponent,
   ],
   imports: [
     BrowserModule,
