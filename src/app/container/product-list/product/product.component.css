@@ -1,0 +1,15 @@
+.card{
+    width: 300px;
+    border : 1px solid black;
+    padding : 10px;
+    margin : 10px;
+}
+
+.card > img{
+    width: 100%;
+}
+.restraurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 5vw;
+}

@@ -12,6 +12,7 @@ import { FormsModule } from '@angular/forms';
 import { RohanComponent } from './rohan/rohan.component';
 import { ProductListComponent } from './container/product-list/product-list.component';
 import { ProductComponent } from './container/product-list/product/product.component';
+import { FilterComponent } from './container/product-list/filter-component/filter-component.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProductComponent } from './container/product-list/product/product.compo
     RohanComponent,
     ProductListComponent,
     ProductComponent,
+    FilterComponent,
   ],
   imports: [
     BrowserModule,
